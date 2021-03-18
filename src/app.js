@@ -14,7 +14,6 @@ let map = new mapboxgl.Map({
 });
 
 //Draw our clusters of data into map
-
 const colors = ['red', 'yellow', 'green'];
 for (let i = 0; i < agrupaciones.length; i += 1) {
     for (let j = 0; j < agrupaciones[i].datos.length; j += 1) {
