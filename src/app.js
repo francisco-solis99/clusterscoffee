@@ -20,7 +20,7 @@ for (let i = 0; i < agrupaciones.length; i += 1) {
         new mapboxgl.Marker({
                 color: colors[i]
             }).setLngLat([agrupaciones[i].longitud[j], agrupaciones[i].latitud[j]]).setPopup(new mapboxgl.Popup().setHTML(
-                `<h1>Cluster ${i}</h1>
+                `<h1>Cluster ${i+1}</h1>
                  <h2>${agrupaciones[i].nombre[j]} </h2> 
                  <p>${agrupaciones[i].datos[j]} toneladas </p>`))
             .addTo(map);

@@ -68,5 +68,27 @@ export const coffeeData = [{
         toneladas: 32684
     },
 
+    {
+        pais: 'Uganda',
+        latitud: 1.373333,
+        longitud: 32.290275,
+        toneladas: 211200
+    },
+
+    {
+        pais: 'Brazil',
+        latitud: -14.235004,
+        longitud: -51.92528,
+        toneladas: 3560000
+    },
+
+    {
+        pais: 'Vietman',
+        latitud: 14.058324,
+        longitud: 108.277199,
+        toneladas: 1620000
+    },
+
+
 
 ]

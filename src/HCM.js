@@ -118,7 +118,7 @@ function createCluster(numClusters) {
 
 /*Pasos del algoritmo HCM
 -> Definir tus grupos, ppor lo menos deben ser 2 grupos, maximo n datos - 1
- 1.- Asignar datos al azar
+1.- Asignar datos al azar
 2.- Calcular medias
 3.- Diferencias de cada uno de los datos con cada uno de las medias
 4.- Detectar el minimo entre cada columna
